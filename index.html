@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería El Estilo</title>
+  <meta name="description" content="Barbería El Estilo: cortes, afeitados y tratamientos de alta calidad en un ambiente moderno y relajado.">
+  <meta name="keywords" content="barbería, corte de cabello, afeitado, barba, tratamientos capilares, hombres">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <h1><u>Barbería <em>El Estilo</em></u></h1>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="#introduccion">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#tienda">Tienda</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="https://www.instagram.com" target="_blank">Síguenos en Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introducción -->
+  <section id="introduccion">
+    <div class="container">
+      <h2>Bienvenidos a la <strong>Barbería El Estilo</strong></h2>
+      <p><em>“Donde el estilo y la elegancia se encuentran.”</em></p>
+      <p>En nuestra barbería ofrecemos cortes de cabello, afeitados y tratamientos de <b>alta calidad</b> para hombres modernos.</p>
+
+      <!-- Contenido multimedia: video y audio -->
+      <video width="400" controls>
+        <source src="/video/66.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+
+      <audio controls>
+        <source src="musica-barberia.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+      </audio>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <ul>
+        <li><strong>Corte de Cabello:</strong> A medida, con los mejores estilos.</li>
+        <li><strong>Afeitado:</strong> Tradicional con navaja y toalla caliente.</li>
+        <li><strong>Barba:</strong> Recorte y arreglo profesional.</li>
+        <li><strong>Tratamientos:</strong> Hidratación y cuidado capilar.</li>
+      </ul>
+
+      <!-- Lista ordenada -->
+      <h3>Pasos de nuestro servicio clásico:</h3>
+      <ol>
+        <li>Recepción y consulta de estilo.</li>
+        <li>Lavado de cabello y preparación.</li>
+        <li>Corte y peinado profesional.</li>
+        <li>Finalización con productos premium.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="galeria-imagenes">
+        <figure>
+          <img src="/img/cortedecabellomoderno.jpg" alt="Corte moderno">
+          <figcaption>Corte moderno</figcaption>
+        </figure>
+        <figure>
+          <img src="/img/cortenavaja.jpg" alt="Afeitado con navaja">
+          <figcaption>Afeitado tradicional</figcaption>
+        </figure>
+        <figure>
+          <img src="/img/recortedebarba.jpg" alt="Recorte de barba profesional">
+          <figcaption>Arreglo de barba</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabla de precios -->
+  <section id="precios">
+    <div class="container">
+      <h2>Precios</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Corte de Cabello</td>
+            <td>$15.000</td>
+          </tr>
+          <tr>
+            <td>Afeitado</td>
+            <td>$10.000</td>
+          </tr>
+          <tr>
+            <td>Recorte de Barba</td>
+            <td>$8.000</td>
+          </tr>
+          <tr>
+            <td>Tratamiento Capilar</td>
+            <td>$12.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Catálogo y carrito -->
+  <section id="tienda">
+    <div class="container">
+      <h2>Tienda de Productos</h2>
+      <div class="productos">
+        <div class="producto">
+          <img src="/img/pomada.jpg" alt="Pomada para cabello">
+          <h3>Pomada para Cabello</h3>
+          <p><i>Alta fijación y acabado brillante.</i></p>
+          <span class="precio">$8.000</span>
+          <button class="agregar-carrito" data-nombre="Pomada para Cabello" data-precio="8000">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+          <img src="/img/aceitebarba.jpg" alt="Aceite para barba">
+          <h3>Aceite para Barba</h3>
+          <p>Hidrata y suaviza la barba. Aroma a madera.</p>
+          <span class="precio">$10.000</span>
+          <button class="agregar-carrito" data-nombre="Aceite para Barba" data-precio="10000">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+          <img src="/img/shampoo.jpg" alt="Shampoo para hombres">
+          <h3>Shampoo para Cabello</h3>
+          <p>Fortalece y da brillo al cabello masculino.</p>
+          <span class="precio">$7.000</span>
+          <button class="agregar-carrito" data-nombre="Shampoo para Cabello" data-precio="7000">Agregar al Carrito</button>
+        </div>
+      </div>
+
+      <!-- Carrito -->
+      <div id="carrito">
+        <h3>Carrito de Compras</h3>
+        <ul id="lista-carrito"></ul>
+        <p>Total: <span id="total">$0</span></p>
+        <button id="pagar">Pagar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form action="/enviarFormulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 <strong>Barbería El Estilo</strong>. Todos los derechos reservados.</p>
+      <a href="#introduccion">Volver arriba</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
